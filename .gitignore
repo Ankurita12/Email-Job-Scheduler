@@ -1,0 +1,18 @@
+# ---- Root ----
+node_modules/
+*/node_modules/
+*/.next/
+*/dist/
+.env
+backend/.env
+frontend/.env
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Docker volumes ----
+pgdata/
